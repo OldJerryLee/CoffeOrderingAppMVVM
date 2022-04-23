@@ -14,6 +14,8 @@
 		61D443DA28146CAA00B0FC52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D443D828146CAA00B0FC52 /* LaunchScreen.storyboard */; };
 		61D443E6281471D400B0FC52 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D443E5281471D400B0FC52 /* OrdersTableViewController.swift */; };
 		61D443EA2814720D00B0FC52 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D443E92814720D00B0FC52 /* AddOrderViewController.swift */; };
+		61D443EE2814786900B0FC52 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D443ED2814786900B0FC52 /* Webservice.swift */; };
+		61D443F328147F5000B0FC52 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D443F228147F5000B0FC52 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		61D443DB28146CAA00B0FC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61D443E5281471D400B0FC52 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		61D443E92814720D00B0FC52 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		61D443ED2814786900B0FC52 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		61D443F228147F5000B0FC52 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		61D443CC28146CA700B0FC52 /* HotCoffe */ = {
 			isa = PBXGroup;
 			children = (
+				61D443F128147F3E00B0FC52 /* Models */,
+				61D443EC2814785B00B0FC52 /* Services */,
 				61D443E3281470DE00B0FC52 /* Controllers */,
 				61D443CD28146CA700B0FC52 /* AppDelegate.swift */,
 				61D443CF28146CA700B0FC52 /* SceneDelegate.swift */,
@@ -76,6 +82,22 @@
 				61D443E92814720D00B0FC52 /* AddOrderViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		61D443EC2814785B00B0FC52 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				61D443ED2814786900B0FC52 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		61D443F128147F3E00B0FC52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61D443F228147F5000B0FC52 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D443F328147F5000B0FC52 /* Order.swift in Sources */,
 				61D443CE28146CA700B0FC52 /* AppDelegate.swift in Sources */,
 				61D443E6281471D400B0FC52 /* OrdersTableViewController.swift in Sources */,
 				61D443D028146CA700B0FC52 /* SceneDelegate.swift in Sources */,
+				61D443EE2814786900B0FC52 /* Webservice.swift in Sources */,
 				61D443EA2814720D00B0FC52 /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
